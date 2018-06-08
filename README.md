@@ -1,4 +1,4 @@
-# Using JSON data from GPS finding nearby friend location
+## Using JSON data from GPS finding nearby friend location
 
 Given GPS co-ordinates(in degrees) of a friend and co-ordinates of all the friend in the city stored in a text file in JSON format, find the user-id and name of all the cab drivers available in 50 km proximity.
 
@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 c++,c, handling JSON file
 
-
+- - - -
 
 ### procedure to run the program
 
@@ -72,4 +72,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-
+1. A numbered list
+   1. A nested numbered list
+   2. Which is numbered
+2. Which is numbered
