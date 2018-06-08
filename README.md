@@ -1,6 +1,6 @@
-# project title
+# Using JSON data from GPS finding nearby friend location
 
-One Paragraph of project description goes here
+Given GPS co-ordinates(in degrees) of a friend and co-ordinates of all the friend in the city stored in a text file in JSON format, find the user-id and name of all the cab drivers available in 50 km proximity.
 
 ## Getting Started
 
@@ -8,28 +8,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-c++,c
-```
-Give examples
-```
+c++,c, handling JSON file
 
-### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+### procedure to run the program
 
-```
-Give the example
-```
+1. Save the code in c++ and the input file friendlist.json in a same location.
+2. Now, compile the code(using cmd : g++ file_name.cpp) and run it(using cmd : ./a.out /home/gfg/friendlist.json) with passing file name friendlist.json along with proper location(e.g. /home/gfg/friendlist.json).
+3. A file named answers.json will be created on the same location where code and friendlist.json file is existing.
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
